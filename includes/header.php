@@ -19,8 +19,8 @@ ob_start();
     <link href="<?php echo SITE_URL; ?>/css/custom.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <!-- Navigation - Updated to match footer theme -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!-- Changed from bg-primary to bg-dark -->
         <div class="container">
             <a class="navbar-brand" href="<?php echo SITE_URL; ?>">
                 <i class="fas fa-truck"></i> TransportGabon
