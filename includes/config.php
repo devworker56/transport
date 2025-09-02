@@ -3,8 +3,8 @@ session_start();
 
 // Database configuration
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'dbtransport');
-define('DB_USER', 'admintransport');
+define('DB_NAME', 'u834808878_dbtransport');
+define('DB_USER', 'u834808878_admintransport');
 define('DB_PASS', 'Ossouka@1968');
 
 // Create connection
