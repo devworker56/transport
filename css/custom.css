@@ -15,6 +15,9 @@ body {
 
 .hero-section {
     background: linear-gradient(135deg, var(--primary-color), #0043a0);
+    min-height: 40vh; /* Added to control minimum height */
+    display: flex;
+    align-items: center;
 }
 
 .card {
@@ -86,5 +89,14 @@ body {
 @media (max-width: 768px) {
     .display-4 {
         font-size: 2.5rem;
+    }
+    
+    .hero-section {
+        min-height: 30vh; /* Smaller height on mobile */
+        padding: 1.5rem 0; /* Reduced padding */
+    }
+    
+    .display-6 {
+        font-size: 1.8rem; /* Adjusted for mobile */
     }
 }

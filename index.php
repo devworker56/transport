@@ -16,14 +16,14 @@ $stmt->execute();
 $listings = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
-<!-- Hero Section -->
-<section class="hero-section bg-primary text-white py-5">
+<!-- Hero Section - Reduced height -->
+<section class="hero-section bg-primary text-white py-3">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <h1 class="display-4 fw-bold">Connecter les agriculteurs et les transporteurs au Gabon</h1>
-                <p class="lead">Une plateforme collaborative pour faciliter le transport des produits agricoles vers Libreville.</p>
-                <div class="mt-4">
+                <h1 class="display-6 fw-bold">Connecter les agriculteurs et les transporteurs au Gabon</h1>
+                <p class="mb-3">Une plateforme collaborative pour faciliter le transport des produits agricoles vers Libreville.</p>
+                <div class="mt-3">
                     <?php if (!isLoggedIn()): ?>
                         <a href="register.php" class="btn btn-light btn-lg me-3">Inscription</a>
                         <a href="login.php" class="btn btn-outline-light btn-lg">Connexion</a>
@@ -36,7 +36,7 @@ $listings = $stmt->fetchAll(PDO::FETCH_ASSOC);
             </div>
             <div class="col-lg-6">
                 <img src="https://images.unsplash.com/photo-1601579530195-8a547a5a1ef4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
-                     alt="Transport de produits agricoles" class="img-fluid rounded shadow">
+                     alt="Transport de produits agricoles" class="img-fluid rounded shadow" style="max-height: 250px;">
             </div>
         </div>
     </div>
