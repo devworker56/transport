@@ -21,7 +21,7 @@ $listings = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <h1 class="display-6 fw-bold">Connecter les agriculteurs et les transporteurs au Gabon</h1>
+                <h1 class="display-6 fw-bold">Connecter les agriculteurs et les transporteurs au Canada</h1>
                 <p class="mb-3">Une plateforme collaborative pour faciliter le transport des produits agricoles vers Libreville.</p>
                 <div class="mt-3">
                     <?php if (!isLoggedIn()): ?>
